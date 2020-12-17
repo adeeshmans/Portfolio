@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<!-- Adeesh Shrestha
-A53304624
-MI 472
--->
+<!-- Adeesh Shrestha-->
 <html lang="en">
 
 <head>
@@ -12,23 +9,131 @@ MI 472
   <!-- Bootstrap css -->
   <link rel="stylesheet" href="css/bootstrap.min.css" />
   <!-- Main css -->
-  <link rel="stylesheet" href="final01.css" />
+  <link rel="stylesheet" href="css/final01.css" />
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/all.css" />
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
   <title>Welcome To My Website</title>
 </head>
 
 <body>
   <header id="header">
-    <nav class="navbar navbar-expand-lg px-4
-</header>
+    <nav class="navbar navbar-expand-lg px-4">
+      <a href="#" class="navbar-brand">
+        <img src="#" alt="main logo" />
+      </a>
+      <!--.navbar-brand=for your company, product, or project name.-->
 
-<!-- jquery -->
-<script src=" js/jquery-3.3.1.min.js"> </script> <!-- bootstrap js -->
-      <script src="js/bootstrap.bundle.min.js"></script>
-      <!-- script js -->
-      <script src="js/app.js"></script>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="navbar-nav text-capitalize mx-auto">
+          <!-- pointer hover effect -->
+          <li class="nav-item active">
+            <a href="#header" class="nav-link">home</a>
+          </li>
+          <li class="nav-item active">
+            <a href="#about" class="nav-link">about</a>
+          </li>
+          <li class="nav-item active">
+            <a href="#store" class="nav-link">courses</a>
+          </li>
+          <!-- <li class="nav-item active">
+            <a href="#services" class="nav-link">services</a>
+          </li>
+          <li class="nav-item active">
+            <a href="#cakes" class="nav-link">cakes</a>
+          </li> -->
+        </ul>
+        <div class="nav-info-items d-none d-lg-flex">
+          <!-- single info -->
+          <div class="nav-info align-items-center d-flex justify-content-between mx-lg-5">
+            <span class="info-icon mx-lg-3">
+              <i class="fas fa-phone"></i>
+            </span>
+            <p class="mb-0">+1 248-931-5403</p>
+          </div>
+          <!-- single info -->
+          <div class="nav-info align-items-center d-flex justify-content-between mx-lg-5">
+            <span class="info-icon mx-lg-3">
+              <i class="fas fa-envelope"></i>
+            </span>
+            <p class="mb-0">adeeshman@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End of Nav -->
+  </header>
+  <!-- End of header -->
+
+  <!-- banner -->
+  <div class="container-fluid">
+    <div class="row max-height justify-content-center align-items-center">
+      <div class="col-10 mx-auto bannner text-center">
+        <h1 class="text-capitalize">
+          welcome, <strong class="banner-title ">to my website</strong>
+        </h1>
+        <img class="img-fluid my-4" src="/img/circle-cropped.jpg" alt="adeesh-portrait" />
+      </div>
+    </div>
+  </div>
+  <hr />
+  <!-- End of banner -->
+
+  <!-- About section -->
+  <section class="about py-5" id="about">
+    <div class="container">
+      <div class="row max-height justify-content-center align-items-center">
+        <div class="col-10 mx-auto col-md-6 my-5">
+          <h1 class="text-capitalize">
+            about<strong class="banner-title"> me </strong>
+          </h1>
+          <p class="my-4 text-muted w-100">
+            I recently graduated from
+            <strong>Michigan State University</strong> from the College of
+            Communication Arts and Sciences. I graduated with a degree in
+            <strong> Media and Information management</strong> and a minor in
+            <strong>Information Technolgy</strong>. I am a passionate student who has
+            experience with web technologies like
+            <strong>HTML5, CSS3, BootStrap 4, UX</strong>, and
+            <strong> wireframing </strong> . I am actively learning in
+            developing and learning new skills and technologies.
+          </p>
+          <a href="#" class="btn btn-black text-uppercase">more</a>
+        </div>
+        <div class=" col-10 mx-auto col-md-6 my-5 align-self-center">
+          <div class="about-image_container">
+            <a href="https://msu.edu/"> <img src="/img/msu.png" class="img-fluid spartan mx-5"
+                alt="spartan-logo-helmet" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr />
+  <!-- End of About section -->
+  <div class="container">
+    <!-- section title -->
+    <div class="row">
+      <div class="col-10 mx-auto col-sm-6 text-center">
+        <h1 class="text-capitalize"> Courses </h1>
+      </div>
+    </div>
+    <!-- end section title -->
+
+  </div>
+  <!-- Course Section -->
+  <!-- End of course Section -->
+
+  <!-- jquery -->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- script js -->
+  <script src="js/app.js"></script>
 </body>
 
 </html>

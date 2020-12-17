@@ -1,42 +1,74 @@
 header {
   color: white;
-  background-color: #1ac98c;
+  background-color: rgb(31, 31, 31);
   text-align: center;
-  padding-top: 50px;
-  padding-bottom: 170px;
-  font-size: 32px;
-  margin-top: -10px;
-  margin-left: -10px;
-  margin-right: -10px;
 }
 
-.h1_2 {
-  margin-top: 20px;
-  padding-bottom: 40px;
-}
-
-.h1exp {
-  padding-top: 100px;
-  padding-bottom: 70px;
-}
 
 body {
-  background: rgb(31, 31, 31);
+  background: #1ac98c;
   font-family: "Ubuntu";
-  /*google fonts */
-  margin-top: -10px;
-  margin-left: -10px;
-  margin-right: -10px;
-  letter-spacing: 1px;
+}
+
+strong {
+  color: white;
+  font-family: "Ubuntu";
+  font-weight: 700;
+}
+
+/* Nav bar styles */
+.nav-link {
+  color: white;
+  transition: all 1s ease-in-out;
+  font-size: 1.3rem;
+
+}
+
+.nav-link:hover {
+  color: rgb(241, 74, 121);
+}
+
+/* Global styles */
+.max-height {
+  min-height: calc(100vh - 76px);
+}
+
+.shadow {
+  filter: drop-shadow(0 0 1rem #000000);
 }
 
 a {
   color: white;
 }
 
-/* Portrait */
+.text-muted {
+  color: white !important;
+}
 
-.card {
+.spartan {
+  width: 50%;
+  height: 50%;
+}
+
+.btn-black {
+  color: Black !important;
+  border-color: black !important;
+}
+
+.btn:hover {
+  color: #F77AD6;
+  background: white;
+}
+
+
+
+
+
+
+
+
+
+/* .card {
   width: 250px;
   height: 340px;
   border-top-left-radius: 102px;
@@ -50,7 +82,6 @@ a {
 }
 
 .card .adeesh {
-  /*Image */
   box-shadow: rgba(2, 240, 157, 0.486) 0 0 80px;
   background: rgba(100, 99, 99, 0.425);
   border-top-left-radius: 100px;
@@ -93,7 +124,6 @@ a {
   box-shadow: rgba(2, 240, 157, 0.74) 0 0 80px;
 }
 
-/* Social Media */
 .media {
   font-size: 40px;
 }
@@ -148,7 +178,6 @@ a {
       #fd5949 50%,
       #d6249f 60%,
       #285aeb 80%);
-  /* W3schools.com */
 }
 
 .fa-instagram:hover {
@@ -158,7 +187,7 @@ a {
 }
 
 /* navigatin bar */
-.nav {
+/* .nav {
   font-size: 16px;
   margin-top: -100px;
   background-color: none;
@@ -283,7 +312,7 @@ a {
 .cirtxt2 {
   text-align: center;
   margin-top: -100px;
-  /* margin-left:10px; */
+  margin-left:10px;
   margin-right: 20px;
   padding-top: 10px;
   font-size: 18px;
@@ -375,8 +404,6 @@ h4 {
   float: right;
 }
 
-/* photography */
-
 .gallery {
   width: 900px;
   height: auto;
@@ -426,9 +453,9 @@ label {
   width: 200px
 }
 
-/* Footer */
+Footer
 .contact {
-  /* background-color: #4b4b4b6e; */
+  background-color: #4b4b4b6e;
   width: 1000px;
   height: 200px;
   margin-top: 100px;
@@ -440,7 +467,7 @@ label {
 .phone {
   width: 120px;
   height: 110px;
-  /* background-color: #1b1b1b; */
+  background-color: #1b1b1b;
   margin-top: 50px;
   margin-bottom: 20px;
   padding: 10px;
@@ -503,4 +530,4 @@ label {
   color: #1ac98c;
   margin-top: 10px;
   margin-left: 810px;
-}
+}  */
